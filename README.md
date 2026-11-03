@@ -7,4 +7,6 @@ Phase 2: Model Training - Bi-LSTM (Approach 3) 74.28% -> save lstm_model.h5 + to
 Phase 3: Evaluation - Accuracy, F1, Confusion Matrix
 Phase 4: Dashboard - streamlit run app.py --server.port 8501
 
+<img width="1152" height="648" alt="finance 2" src="https://github.com/user-attachments/assets/0bf49623-55e3-4745-a5c7-c296ccd58b07" />
+<img width="1152" height="648" alt="finance 1" src="https://github.com/user-attachments/assets/ae68947c-bd34-4de6-9956-6036feaef090" />
 
