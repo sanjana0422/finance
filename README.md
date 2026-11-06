@@ -1,12 +1,11 @@
-[comparison_report.pdf](https://github.com/user-attachments/files/34315604/comparison_report.pdf)
-
 This project builds a sentiment classifier for financial tweets and news headlines to predict market sentiment as bearish,bullish,neutral.Dataset train_clen.csv is highly imbalanced.
 ## How to Run Complete Pipeline
 Phase 1: Data Filtering - clean URLs, lowercase, tokenize
 Phase 2: Model Training - Bi-LSTM (Approach 3) 74.28% -> save lstm_model.h5 + tokenizer.pkl / FinBERT fine-tune -> 81.8%
 Phase 3: Evaluation - Accuracy, F1, Confusion Matrix
 Phase 4: Dashboard - streamlit run app.py --server.port 8501
-
-<img width="1152" height="648" alt="finance 2" src="https://github.com/user-attachments/assets/0bf49623-55e3-4745-a5c7-c296ccd58b07" />
+# app screenshots
 <img width="1152" height="648" alt="finance 1" src="https://github.com/user-attachments/assets/ae68947c-bd34-4de6-9956-6036feaef090" />
+<img width="1152" height="648" alt="finance 2" src="https://github.com/user-attachments/assets/0bf49623-55e3-4745-a5c7-c296ccd58b07" />
+
 
